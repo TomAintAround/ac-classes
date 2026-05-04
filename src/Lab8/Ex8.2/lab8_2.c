@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "polycalc.h"
 
-int main()
-{
-	int vec[5]={7,8,10,2,1};
+int main() {
+	int vec[5] = { 7, 8, 10, 2, 1 };
 	int f;
-	
-	f=polycalc(vec[0],vec[1],vec[2],vec[3],vec[4]);
-	
+
+	f = polycalc(vec[0], vec[1], vec[2], vec[3], vec[4]);
+
 	// Imprimir Resultados Calculados em Assembly e em C
-	printf("Resultado Calculado na Funcao Assembly: %d\n",f);
-	
-	printf("Resultado Calculado em C: %d\n",5*(vec[0]+vec[1])*(vec[2]-3*vec[3]*vec[4]));
+	printf("Resultado Calculado na Funcao Assembly: %d\n", f);
+
+	printf("Resultado Calculado em C: %d\n",
+		   5 * (vec[0] + vec[1]) * (vec[2] - 3 * vec[3] * vec[4]));
 }

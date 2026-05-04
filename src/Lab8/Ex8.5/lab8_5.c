@@ -5,7 +5,7 @@ int main() {
 	int i, size = 0;
 	printf("Tamanho dos vetores: ");
 	scanf("%d", &size);
-	
+
 	int v1[size], v2[size];
 
 	printf("Vetor 1\n");

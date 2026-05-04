@@ -1,2 +1,1 @@
-int polycalc(int,int,int,int,int);
-
+int polycalc(int, int, int, int, int);

@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main(){
-  int a,b,c;
+int main() {
+	int a, b, c;
 
-  printf("Enter the first number: ");
-  scanf("%d",&a);
-  printf("Enter the second number: ");
-  scanf("%d",&b);
+	printf("Enter the first number: ");
+	scanf("%d", &a);
+	printf("Enter the second number: ");
+	scanf("%d", &b);
 
-  c=a+b;
+	c = a + b;
 
-  printf("The sum of %d with %d is %#x\n",a,b,c);
+	printf("The sum of %d with %d is %#x\n", a, b, c);
 }
